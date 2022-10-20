@@ -38,12 +38,12 @@
                `;
    
             }); 
-         }else{ 
+         }  
+         else{ 
 
-            
             elTitle.textContent = "Bunday qidruv topilmadi.."
          }      
-          
+           
          const totalPages = Math.ceil(array.totalResults / 10);
 
          if(activPage == 1){ 
