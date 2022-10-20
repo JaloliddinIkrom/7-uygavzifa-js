@@ -21,7 +21,6 @@
 
          node.innerHTML = '';  
          elBtnList.innerHTML = '';  
-         elTitle.textContent = '';
 
          if(array.Response == "True"){ 
             array.Search.forEach((item) => { 
