@@ -32,11 +32,11 @@ color: #fff;
  } 
  .js-list{ 
     display: flex; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;  
     list-style: none;
     padding: 0;  
     gap: 10px ; 
-   
+   margin: 0 auto;
  }  
  .js-subtitle{ 
 
