@@ -14,7 +14,6 @@
    const elBtn2 = document.querySelector('.js-btn2');  
    const elBtnList = document.querySelector('.btn-list'); 
    const elSelect = document.querySelector('.js-select');
-   const elTitle = document.querySelector('.js-title-text');
    let EPPK = 'a39dcfca';
    let activPage = 1; 
 
@@ -39,10 +38,7 @@
    
             }); 
          }  
-         else{ 
-
-            elTitle.textContent = "Bunday qidruv topilmadi.."
-         }      
+              
            
          const totalPages = Math.ceil(array.totalResults / 10);
 
